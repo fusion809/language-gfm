@@ -10,6 +10,37 @@
   'ron'
 ]
 'patterns': [
+    {
+    'begin': '{%\\s*comment\\s*%}'
+    'end': '{%\\s*endcomment\\s*%}'
+    'name': 'comment.block.liquid'
+  }
+  {
+    'begin': '{{'
+    'end': '}}'
+    'name': 'punctuation.output.liquid'
+    'patterns': [
+      {
+        'include': '#template_var'
+      }
+    ]
+  }
+  {
+    'begin': '{%'
+    'end': '%}'
+    'name': 'punctuation.tag.liquid'
+    'patterns': [
+      {
+        'include': '#template_tag_name'
+      }
+      {
+        'include': '#template_var'
+      }
+    ]
+  }
+  {
+    'include': 'text.html.basic'
+  }
   {
     'match': '\\\\.'
     'name': 'constant.character.escape.gfm'
