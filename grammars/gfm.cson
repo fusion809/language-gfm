@@ -10,7 +10,7 @@
   'ron'
 ]
 'patterns': [
-    {
+ {
     'begin': '{%\\s*comment\\s*%}'
     'end': '{%\\s*endcomment\\s*%}'
     'name': 'comment.block.liquid'
