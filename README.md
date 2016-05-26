@@ -8,10 +8,9 @@ files in Atom.
 Contributions are greatly appreciated. Please fork this repository and open a
 pull request to add snippets, make grammar tweaks, etc.
 
-To use this package (with full functionality, part of which is provided by the `language-liquid` package) run:
+To use this package run:
 
 ```bash
-apm remove language-gfm
 apm install language-liquid language-gfm2
 ```
 
