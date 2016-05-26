@@ -11,7 +11,7 @@ pull request to add snippets, make grammar tweaks, etc.
 To use this package run:
 
 ```bash
-apm install language-liquid language-gfm2
+apm install language-gfm2
 ```
 
 ## Footnotes
