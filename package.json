@@ -1,6 +1,6 @@
 {
   "name": "language-gfm2",
-  "version": "0.88.2",
+  "version": "0.88.3",
   "description": "Syntax highlighting and snippets for GitHub Flavored Markdown (GFM), with Liquid support (provided language-liquid is also installed).",
   "repository": "https://github.com/fusion809/language-gfm",
   "license": "MIT",
