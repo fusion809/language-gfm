@@ -7,6 +7,9 @@
   "engines": {
     "atom": "*"
   },
+  "dependencies": {
+    "atom-package-deps": "^3.0.5"
+  },
   "devDependencies": {
     "coffee-script": "1.7.0",
     "coffeelint": "^1.10.1",
