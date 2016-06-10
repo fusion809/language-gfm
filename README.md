@@ -1,4 +1,4 @@
-# GitHub-flavoured Markdown package [![Build Status](https://travis-ci.org/atom/language-gfm.svg?branch=master)](https://travis-ci.org/atom/language-gfm)
+# GitHub-flavoured Markdown package [![Build Status](https://travis-ci.org/fusion809/language-gfm2.svg?branch=master)](https://travis-ci.org/fusion809/language-gfm2)
 <img src="http://i.imgur.com/HdukejG.png"><caption>**Figure 1:** `language-gfm2` (along with [`language-liquid`](https://github.com/puranjayjain/language-liquid)) being used to syntax-highlight Liquid code within a markdown file on the Jekyll site, [*The Hornery*](https://fusion809.github.io).<sup>1</sup></caption>
 </img>
 
