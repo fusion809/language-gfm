@@ -5,6 +5,7 @@
   "description": "Syntax highlighting and snippets for GitHub Flavored Markdown (GFM), with Liquid support.",
   "repository": "https://github.com/fusion809/language-gfm2",
   "license": "MIT",
+  "licenseFilename": "LICENSE.md",
   "engines": {
     "atom": "*"
   },
