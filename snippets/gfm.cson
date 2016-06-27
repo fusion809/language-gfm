@@ -20,3 +20,12 @@
   'table':
     'prefix': 'table'
     'body': '| ${1:Header One    } | ${2:Header Two    } |\n| :------------- | :------------- |\n| ${3:Item One      } | ${4:Item Two      } |$0'
+  'include':
+    'prefix': '{% i'
+    'body': '{% include ${1} %}'
+  'include_relative':
+    'prefix': '{% ir'
+    'body': '{% include_relative ${1} %}'
+  'capture':
+    'prefix': '{% c'
+    'body': '{% capture ${1} %}${2}{% endcapture %}'
