@@ -1,4 +1,7 @@
 '.source.gfm':
+  'embedded image':
+    'prefix': 'img'
+    'body': '![$1]($2)$0'
   'bold text':
     'prefix': 'b'
     'body': '**$1**$0'
